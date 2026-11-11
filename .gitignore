@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+windows/.venv/
+windows/build/
+windows/dist/
+windows/*.spec
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/protocol-test/*.jar
+.idea/
+*.iml
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

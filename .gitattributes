@@ -1,0 +1,12 @@
+* text=auto
+*.bat text eol=crlf
+*.sh text eol=lf
+*.kt text eol=lf
+*.kts text eol=lf
+*.py text eol=lf
+*.png binary
+*.ico binary
+*.keystore binary
+*.jar binary
+*.apk binary
+*.exe binary

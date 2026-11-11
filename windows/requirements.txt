@@ -1,0 +1,4 @@
+PySide6-Essentials>=6.6
+cryptography>=42
+segno>=1.6
+psutil>=5.9
