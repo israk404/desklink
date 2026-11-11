@@ -1,6 +1,8 @@
 name: Build
 
 # Manual only: start it from the Actions tab → Build → Run workflow.
+# (GitHub currently refuses to start jobs on this account because of a billing lock; until that is
+# cleared, the ready-made PC package lives in downloads/.)
 on:
   workflow_dispatch:
 
