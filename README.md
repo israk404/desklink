@@ -12,8 +12,9 @@ A Windows tool and an Android app that work as a pair over your Wi-Fi.
 
 - **PC:** download [DeskLink-Windows.zip](downloads/DeskLink-Windows.zip?raw=true), right-click → **Extract All…**,
   then run `DeskLink.exe` inside the folder. Nothing to install; keep the folder together.
-- **Phone:** the APK is not built yet. The app's code is in `android/`; it is built by the **Build** workflow
-  (Actions tab → Build → Run workflow) or with `gradle assembleRelease` in `android/`.
+- **Phone:** download [DeskLink.apk](downloads/DeskLink.apk?raw=true) on the phone and open it to install
+  (Android 8.0 or newer). APK signing certificate SHA-256:
+  `5ed9f655232825479f8e15522bfb56f49231dee8136976e90e315ed56ebdaf9e`
 
 The workflow publishes a signed APK only when the repository has two secrets (Settings → Secrets and variables
 → Actions): `ANDROID_KEYSTORE_BASE64` and `ANDROID_KEYSTORE_PASSWORD` (key alias `desklink`). Keep using the
